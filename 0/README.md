@@ -100,8 +100,8 @@ Input:
 Output:
 
     In the first line print number of distinct factors of N
-    In the second line print all distinct factors in ascending order 
-    separated by space.
+    In the second line print all distinct factors in ascending 
+    order separated by space.
 
 Constraints
 
