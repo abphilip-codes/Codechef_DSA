@@ -56,7 +56,7 @@ Output:
 
 Constraints
 
-    1≤N≤103
+    1≤N≤10^3
 
 Sample Input 1:
 
@@ -89,3 +89,54 @@ EXPLANATION:
     In the third example, 16 is not divisible by 5 or 11.
 ```
 <br />
+
+```
+3. You are given a number N and find all the distinct factors of N
+
+Input:
+
+    First-line will contain the number N
+
+Output:
+
+    In the first line print number of distinct factors of N
+    In the second line print all distinct factors in ascending order 
+    separated by space.
+
+Constraints
+
+    1≤N≤10^6
+
+Sample Input 1:
+
+    4
+
+Sample Output 1:
+
+    3
+    1 2 4
+
+Sample Input 2:
+
+    6
+
+Sample Output 2:
+
+    4
+    1 2 3 6
+
+EXPLANATION:
+
+    In the first example, all factors of 4 are 1, 2, 4.
+    In the second example, all factors of 6 are 1, 2, 3, 6.
+```
+<br />
+
+```
+4. 
+```
+<br />
+
+```
+5. 
+```
