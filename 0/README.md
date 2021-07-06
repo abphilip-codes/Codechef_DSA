@@ -41,10 +41,8 @@ EXPLANATION:
 <br />
 
 ```
-2. You're given a number N. If N is divisible by 5 or 11 but not both 
-then print "ONE"(without quotes). If N is divisible by both 5 and 11 
-then print "BOTH"(without quotes). If N is not divisible by 5 or 11 
-then print "NONE"(without quotes).
+2. You're given a number N. If N is divisible by 5 or 11 but not both then print "ONE"(without quotes). If N is divisible by both 
+5 and 11 then print "BOTH"(without quotes). If N is not divisible by 5 or 11 then print "NONE"(without quotes).
 
 Input:
 
@@ -100,8 +98,7 @@ Input:
 Output:
 
     In the first line print number of distinct factors of N
-    In the second line print all distinct factors in ascending 
-    order separated by space.
+    In the second line print all distinct factors in ascending order separated by space.
 
 Constraints
 
@@ -133,8 +130,7 @@ EXPLANATION:
 <br />
 
 ```
-4. Given three distinct integers A, B and C, print the second largest 
-number among them.
+4. Given three distinct integers A, B and C, print the second largest number among them.
 
 Input:
 
@@ -173,17 +169,14 @@ Sample Output 2:
 
 EXPLANATION:
 
-    In the first example, 7 is the second largest number among 
-    the given three numbers.
-    In the second example, 16 is the second largest number among 
-    the given three numbers.
+    In the first example, 7 is the second largest number among the given three numbers.
+    In the second example, 16 is the second largest number among the given three numbers.
 ```
 <br />
 
 ```
-5. You're given two numbers L and R. Print all odd numbers between L and R 
-(both inclusive) in a single line separated by space, in ascending 
-(increasing) order.
+5. You're given two numbers L and R. Print all odd numbers between L and R (both inclusive) in 
+a single line separated by space, in ascending (increasing) order.
 
 Input:
 
@@ -191,8 +184,7 @@ Input:
 
 Output:
 
-    Print all odd numbers in a single line separated by space, in 
-    ascending (increasing) order.
+    Print all odd numbers in a single line separated by space, in ascending (increasing) order.
 
 Constraints
 
@@ -222,15 +214,13 @@ EXPLANATION:
 <br />
 
 ```
-6. Raju is planning to visit his favourite restaurant. He shall travel 
-to it by bus. Only the buses whose numbers are divisible by 5 or by 6 shall 
-take him to his destination. You are given a bus number N. Find if Raju can 
-take the bus or not. Print YES if he can take the bus, otherwise print NO.
+6. Raju is planning to visit his favourite restaurant. He shall travel to it by bus. Only the buses 
+whose numbers are divisible by 5 or by 6 shall take him to his destination. You are given a bus number N. 
+Find if Raju can take the bus or not. Print YES if he can take the bus, otherwise print NO.
 
 Input:
 
-    The first and only line of the input shall contain an integer N, 
-    denoting the bus number.
+    The first and only line of the input shall contain an integer N, denoting the bus number.
 
 Output:
 
@@ -266,17 +256,14 @@ Sample Output 3:
 
 EXPLANATION:
 
-    In the first example, 60 is divisible by 5 and 6 both, 
-    so he can take the bus.
-    In the second example, 16 is divisible by neither 5 nor 6, 
-    so he can't take the bus.
+    In the first example, 60 is divisible by 5 and 6 both, so he can take the bus.
+    In the second example, 16 is divisible by neither 5 nor 6, so he can't take the bus.
     In the third example, 20 is divisible by 5, so he can take the bus.
 ```
 <br />
 
 ```
-7. You are given a list of N integers and you need to reverse it and 
-print the reversed list in a new line.
+7. You are given a list of N integers and you need to reverse it and print the reversed list in a new line.
 
 Input:
 
@@ -395,15 +382,13 @@ Sample Output 2:
 
 EXPLANATION:
 
-    In the first example, (2, 4, 3) can form a triangle with an area 
-    greater than 0.
+    In the first example, (2, 4, 3) can form a triangle with an area greater than 0.
     In the second example, (1, 1, 4) will never form a valid triangle.
 ```
 <br />
 
 ```
-10. You're given a number N. Print the first N lines of the 
-below-given pattern.
+10. You're given a number N. Print the first N lines of the below-given pattern.
 
     *
    **
