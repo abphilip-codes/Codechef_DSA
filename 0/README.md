@@ -219,3 +219,108 @@ EXPLANATION:
     In the first example, odd numbers between 2 and 9 are 3,5,7,9
     In the second example, the only odd number in the range is 3
 ```
+<br />
+
+```
+6. Raju is planning to visit his favourite restaurant. He shall travel to it by bus. Only the buses whose numbers are divisible by 5 or by 6 shall take him to his destination. You are given a bus number N
+
+. Find if Raju can take the bus or not. Print YES if he can take the bus, otherwise print NO.
+Input:
+
+    The first and only line of the input shall contain an integer N
+
+    , denoting the bus number.
+
+Output:
+
+Print YES if Raju can take that bus, else print NO.
+Constraints
+
+    1≤N≤106
+
+Sample Input 1:
+
+60
+
+Sample Output 1:
+
+YES
+
+Sample Input 2:
+
+16
+
+Sample Output 2:
+
+NO
+
+Sample Input 3:
+
+20
+
+Sample Output 3:
+
+YES
+
+EXPLANATION:
+
+    In the first example, 60
+
+is divisible by 5 and 6
+both, so he can take the bus.
+In the second example, 16
+is divisible by neither 5 nor 6
+, so he can't take the bus.
+In the third example, 20
+is divisible by 5, so he can take the bus.
+```
+<br />
+
+```
+7. You are given a list of N
+
+integers and you need to reverse it and print the reversed list in a new line.
+Input:
+
+    First-line will contain the number N
+
+.
+Second line will contain N
+
+    space-separated integers.
+
+Output:
+
+Print the reversed list in a single line.
+Constraints
+
+    1≤N,Ai≤105
+
+Sample Input 1:
+
+4
+1 3 2 4
+
+Sample Output 1:
+
+4 2 3 1
+
+Sample Input 2:
+
+2
+9 8
+
+Sample Output 2:
+
+8 9
+
+EXPLANATION:
+
+    In the first example, the reverse of the [1,3,2,4]
+
+is [4,2,3,1]
+.
+In the second example, the reverse of [9,8]
+is [8,9].
+```
+<br />
