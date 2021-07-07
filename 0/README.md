@@ -512,3 +512,45 @@ EXPLANATION:
     In the first example, (1 + 3 + 5 + 7) = 16 and (2 + 4 + 6 + 8) = 20.
     In the second example, only one odd that is 1 and only one even that is 2.
 ```
+<br />
+
+```
+13. You're given the three angles a, b, and c respectively. Now check if these three 
+angles can form a valid triangle with an area greater than 0 or not. Print "YES"
+(without quotes) if it can form a valid triangle with an area greater than 0, otherwise print "NO" (without quotes).
+
+Input:
+
+    First-line will contain three numbers a, b, and c separated by space.
+
+Output:
+
+    Print "YES"(without quotes) if these sides can form a valid triangle, 
+    otherwise print "NO" (without quotes).
+
+Constraints
+
+    0≤a,b,c≤180
+
+Sample Input 1:
+
+    20 40 120
+
+Sample Output 1:
+
+    YES
+
+Sample Input 2:
+
+    100 18 42
+
+Sample Output 2:
+
+    NO
+
+EXPLANATION:
+
+    In the first example, angles set (20, 40, 120) can form a triangle with 
+    an area greater than 0.
+    In the second example, angles set (100, 18, 42) will never form a valid triangle.
+```
