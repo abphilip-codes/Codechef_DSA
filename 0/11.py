@@ -1,5 +1,3 @@
 # https://www.codechef.com/CCSTART2/problems/ADDNATRL
 
-sum = 0
-for i in range(1,int(input())+1): sum+=i
-print(sum)
+print(sum(list(range(1,int(input())+1))))
