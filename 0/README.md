@@ -41,8 +41,9 @@ EXPLANATION:
 <br />
 
 ```
-2. You're given a number N. If N is divisible by 5 or 11 but not both then print "ONE"(without quotes). If N is divisible by both 
-5 and 11 then print "BOTH"(without quotes). If N is not divisible by 5 or 11 then print "NONE"(without quotes).
+2. You're given a number N. If N is divisible by 5 or 11 but not both then print 
+"ONE"(without quotes). If N is divisible by both 5 and 11 then print "BOTH"(without 
+quotes). If N is not divisible by 5 or 11 then print "NONE"(without quotes).
 
 Input:
 
@@ -517,7 +518,8 @@ EXPLANATION:
 ```
 13. You're given the three angles a, b, and c respectively. Now check if these three 
 angles can form a valid triangle with an area greater than 0 or not. Print "YES"
-(without quotes) if it can form a valid triangle with an area greater than 0, otherwise print "NO" (without quotes).
+(without quotes) if it can form a valid triangle with an area greater than 0, 
+otherwise print "NO" (without quotes).
 
 Input:
 
