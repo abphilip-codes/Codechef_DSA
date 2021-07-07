@@ -554,3 +554,102 @@ EXPLANATION:
     an area greater than 0.
     In the second example, angles set (100, 18, 42) will never form a valid triangle.
 ```
+<br />
+
+```
+14. You're given the length of three sides a, b, and c respectively. Now If these 
+three sides can form an Equilateral Triangle then print 1, if these three sides can 
+form an Isosceles Triangle then print 2, if these three sides can form a Scalene 
+Triangle then print 3, otherwise print −1
+
+Input:
+
+    First-line will contain three numbers a, b, and c separated by space.
+
+Output:
+
+    Print the answer in a new line.
+
+Constraints
+
+    1≤a,b,c≤10^3
+
+Sample Input 1:
+
+    2 4 3
+
+Sample Output 1:
+
+    3
+
+Sample Input 2:
+
+    4 4 4
+
+Sample Output 2:
+
+    1
+
+Sample Input 3:
+
+    4 4 9
+
+Sample Output 3:
+
+    -1
+
+EXPLANATION:
+
+    In the first example, (2, 4, 3) will form a Scalene Triangle.
+    In the second example, (4, 4, 4) will form an Equilateral Triangle.
+    In the third example, (4, 4, 9) will not form a triangle.
+```
+<br />
+
+```
+15. You're given a number N. Print the first N lines of the below-given pattern.
+
+    1 2 3 4 5
+    10 9 8 7 6
+    11 12 13 14 15
+    20 19 18 17 16
+    21 22 23 24 25
+    30 29 28 27 26
+
+Input:
+
+    First-line will contain the number N
+
+Output:
+
+    Print the first N lines of the given pattern.
+
+Constraints
+
+    1≤N≤200
+
+Sample Input 1:
+
+    4
+
+Sample Output 1:
+
+    1 2 3 4 5
+    10 9 8 7 6
+    11 12 13 14 15
+    20 19 18 17 16
+
+Sample Input 2:
+
+    2
+
+Sample Output 2:
+
+    1 2 3 4 5
+    10 9 8 7 6
+
+EXPLANATION:
+
+    In the first example, we'll print the first 4 lines of the given pattern.
+    In the second example, we'll print the first 2 lines of the given pattern.
+```
