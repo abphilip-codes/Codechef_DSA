@@ -8,5 +8,6 @@ class Codechef
         Scanner in = new Scanner(System.in);
         long n = in.nextInt();
         System.out.println(n*(n+1)/2);
+        in.close();
     }
 }
