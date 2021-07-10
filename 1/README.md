@@ -23,51 +23,36 @@ Sample Output:
 <br />
 
 ```
-2. You're given a number N. If N is divisible by 5 or 11 but not both then print 
-"ONE"(without quotes). If N is divisible by both 5 and 11 then print "BOTH"(without 
-quotes). If N is not divisible by 5 or 11 then print "NONE"(without quotes).
+2. Given an Integer N, write a program to reverse it.
 
-Input:
+Input
 
-    First-line will contain the number N
+    The first line contains an integer T, total number of testcases. 
+    Then follow T lines, each line contains an integer N.
 
-Output:
+Output
 
-    Print the answer in a newline.
+    For each test case, display the reverse of the given number N, in a new line.
 
 Constraints
 
-    1≤N≤10^3
+    1 ≤ T ≤ 1000
+    1 ≤ N ≤ 1000000
 
-Sample Input 1:
+Sample Input
 
-    50
+    4
+    12345
+    31203
+    2123
+    2300
 
-Sample Output 1:
+Sample Output
 
-    ONE
-
-Sample Input 2:
-
-    110
-
-Sample Output 2:
-
-    BOTH
-
-Sample Input 2:
-
-    16
-
-Sample Output 2:
-
-    NONE
-
-EXPLANATION:
-
-    In the first example, 50 is divisible by 5, but not 11.
-    In the second example, 110 is divisible by both 5 and 11.
-    In the third example, 16 is not divisible by 5 or 11.
+    54321
+    30213
+    3212
+    32
 ```
 <br />
 
