@@ -6,7 +6,7 @@ Life, the Universe, and Everything. More precisely… rewrite small numbers from
 to output. Stop processing input after reading in the number 42. All numbers at input
 are integers of one or two digits.
 
-Sample Input:
+Sample Input
 
     1
     2
@@ -14,7 +14,7 @@ Sample Input:
     42
     99
 
-Sample Output:
+Sample Output
 
     1
     2
@@ -57,43 +57,50 @@ Sample Output
 <br />
 
 ```
-3. You are given a number N and find all the distinct factors of N
+3. Lapindrome is defined as a string which when split in the middle, gives two 
+halves having the same characters and same frequency of each character. If there 
+are odd number of characters in the string, we ignore the middle character and 
+check for lapindrome. For example gaga is a lapindrome, since the two halves ga and 
+ga have the same characters with same frequency. Also, abccab, rotor and xyzxy are a 
+few examples of lapindromes. Note that abbaab is NOT a lapindrome. The two halves 
+contain the same characters but their frequencies do not match. Your task is simple. 
+Given a string, you need to tell if it is a lapindrome.
 
-Input:
+Input
 
-    First-line will contain the number N
+    First line of input contains a single integer T, the number of test cases.
+    Each test is a single line containing a string S composed of only lowercase 
+    English alphabet.
 
-Output:
+Output
 
-    In the first line print number of distinct factors of N
-    In the second line print all distinct factors in ascending order separated by space.
+    For each test case, output on a separate line: "YES" if the string is a 
+    lapindrome and "NO" if it is not.
 
 Constraints
 
-    1≤N≤10^6
+    1 ≤ T ≤ 100
+    2 ≤ |S| ≤ 1000, where |S| denotes the length of S
 
-Sample Input 1:
-
-    4
-
-Sample Output 1:
-
-    3
-    1 2 4
-
-Sample Input 2:
+Sample Input
 
     6
+    gaga
+    abcde
+    rotor
+    xyzxy
+    abbaab
+    ababc
 
-Sample Output 2:
 
-    4
-    1 2 3 6
+Sample Output
 
-EXPLANATION:
-
-    In the first example, all factors of 4 are 1, 2, 4.
-    In the second example, all factors of 6 are 1, 2, 3, 6.
+    YES
+    NO
+    YES
+    YES
+    NO
+    NO
 ```
 <br />
 
