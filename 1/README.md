@@ -114,7 +114,7 @@ budgets are 30, 20, 53 and 14. In this case, the maximum revenue you can get is 
 
 Input
 
-    Line 1 : N, the total number of potential customers.
+    Line 1: N, the total number of potential customers.
     Lines 2 to N+1: Each line has the budget of a potential customer.
 
 Output
@@ -172,41 +172,52 @@ Note
 <br />
 
 ```
-5. You're given two numbers L and R. Print all odd numbers between L and R (both inclusive) in 
-a single line separated by space, in ascending (increasing) order.
+5. Most problems on CodeChef highlight chef's love for food and cooking but little is 
+known about his love for racing sports. He is an avid Formula 1 fan. He went to watch 
+this year's Indian Grand Prix at New Delhi. He noticed that one segment of the circuit 
+was a long straight road. It was impossible for a car to overtake other cars on this segment. Therefore, a car had to lower down its speed if there was a slower car in front 
+of it. While watching the race, Chef started to wonder how many cars were moving at 
+their maximum speed.
 
-Input:
+Formally, you're given the maximum speed of N cars in the order they entered the 
+long straight segment of the circuit. Each car prefers to move at its maximum speed. 
+If that's not possible because of the front car being slow, it might have to lower its 
+speed. It still moves at the fastest possible speed while avoiding any collisions. For 
+the purpose of this problem, you can assume that the straight segment is infinitely long.
 
-    First-line will contain two numbers L and R
+Count the number of cars which were moving at their maximum speed on the straight segment.
 
-Output:
+Input
 
-    Print all odd numbers in a single line separated by space, in ascending (increasing) order.
+    The first line of the input contains a single integer T denoting the number of test cases to follow. Description of each test case contains 2 lines. The first of these lines contain a single integer N, the number of cars. The second line contains N space separated integers, denoting the maximum speed of the cars in the order they entered the long straight segment.
+
+Output
+
+    For each test case, output a single line containing the number of cars which were moving at their maximum speed on the segment.
+
+Sample Input
+
+    3
+    1
+    10
+    3
+    8 3 6
+    5
+    4 5 1 2 3
+
+Output
+
+    1
+    2
+    2
 
 Constraints
 
-    1≤L<R≤10^6
-
-Sample Input 1:
-
-    2 9
-
-Sample Output 1:
-
-    3 5 7 9
-
-Sample Input 2:
-
-    3 4
-
-Sample Output 2:
-
-    3
-
-EXPLANATION:
-
-    In the first example, odd numbers between 2 and 9 are 3,5,7,9
-    In the second example, the only odd number in the range is 3
+    1 ≤ T ≤ 100
+    1 ≤ N ≤ 10,000
+    
+All speeds are distinct positive integers that fit in a 32 bit signed integer.
+Each input file will not be larger than 4 MB (4,000,000,000 bytes) in size. 
 ```
 <br />
 
