@@ -1,42 +1,24 @@
-# DSA: Easy Problems to Get Started
+# DSA: Complexity Analysis and Basics Warm up
 
 ```
-1. Chef went to a shop and buys a pens and b pencils. Each pen costs x units and each 
-pencil costs y units. Now find what is the total amount Chef will spend to buy 
-a pens and b pencils.
+1. Your program is to use the brute-force approach in order to find the Answer to 
+Life, the Universe, and Everything. More precisely… rewrite small numbers from input 
+to output. Stop processing input after reading in the number 42. All numbers at input
+are integers of one or two digits.
 
-Input:
+Sample Input:
 
-    First-line will contain 4 space separated integers a, b, x and y respectively.
+    1
+    2
+    88
+    42
+    99
 
-Output:
+Sample Output:
 
-    Print the answer in a new line.
-
-Constraints
-
-    1≤a,b,x,y≤10^3
-
-Sample Input 1:
-
-    2 4 4 5
-
-Sample Output 1:
-
-    28
-
-Sample Input 2:
-
-    1 1 4 8
-
-Sample Output 2:
-
-    12
-
-EXPLANATION:
-
-    In the first example, total cost is (2 * 4 + 4 * 5) = 28.
-    In the second example, total cost is (1 * 4 + 1 * 8) = 12.
+    1
+    2
+    88
 ```
 <br />
 
