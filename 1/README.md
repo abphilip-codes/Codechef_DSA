@@ -359,84 +359,134 @@ Explanation
 <br />
 
 ```
-8. You are given a list of N integers and a value K. Print 1 if K exists 
-in the given list of N integers, otherwise print −1
+8.  You might have heard about our new goodie distribution program aka the "Laddu Accrual 
+System". This problem is designed to give you a glimpse of its rules. You can read the page 
+once before attempting the problem if you wish, nonetheless we will be providing all the 
+information needed here itself.
 
-Input:
+Laddu Accrual System is our new goodie distribution program. In this program, we will be 
+distributing Laddus in place of goodies for your winnings and various other activities 
+(described below), that you perform on our system. Once you collect enough number of 
+Laddus, you can then redeem them to get yourself anything from a wide range of CodeChef 
+goodies.
 
-    First-line will contain two numbers N and K
-    Next line contains N space-separated numbers.
+Let us know about various activities and amount of laddus you get corresponding to them.
 
-Output:
+    Contest Win (CodeChef’s Long, Cook-Off, LTIME, or any contest hosted with us) : 
+        300 + Bonus (Bonus = 20 - contest rank). Note that if your rank is > 20, 
+        then you won't get any bonus.
+    Top Contributor on Discuss : 300
+    Bug Finder : 50 - 1000 (depending on the bug severity). It may also fetch you a 
+        CodeChef internship!
+    Contest Hosting : 50
 
-    Print the answer in a new line.
+You can do a checkout for redeeming laddus once a month. The minimum laddus redeemable at 
+Check Out are 200 for Indians and 400 for the rest of the world.
+
+You are given history of various activities of a user. The user has not redeemed any of the 
+its laddus accrued.. Now the user just wants to redeem as less amount of laddus he/she can, 
+so that the laddus can last for as long as possible. Find out for how many maximum number 
+of months he can redeem the laddus.
+
+Input
+
+    The first line of input contains a single integer T denoting number of test cases
+    For each test case:
+        First line contains an integer followed by a string denoting activities, origin 
+        respectively, where activities denotes number of activities of the user, origin 
+        denotes whether the user is Indian or the rest of the world. origin can be "INDIAN" 
+        or "NON_INDIAN".
+        
+        For each of the next activities lines, each line contains an activity.
+        An activity can be of four types as defined above.
+            Contest Win : Input will be of form of CONTEST_WON rank, where rank denotes the 
+            rank of the user.
+            Top Contributor : Input will be of form of TOP_CONTRIBUTOR.
+            Bug Finder : Input will be of form of BUG_FOUND severity, where severity 
+            denotes the severity of the bug.
+            Contest Hosting : Input will be of form of CONTEST_HOSTED.
+
+Output
+
+    For each test case, find out the maximum number of months for which the user can 
+    redeem the laddus accrued. 
 
 Constraints
 
-    1≤N,K,Ai≤10^5
+    1 ≤ T, activities ≤ 100
+    1 ≤ rank ≤ 5000
+    50 ≤ severity ≤ 1000
 
-Sample Input 1:
+Subtasks
+    
+    There is only a single subtask with 100 points.
 
-    4 2
-    1 2 3 4
+Sample Input
 
-Sample Output 1:
+    2
+    4 INDIAN
+    CONTEST_WON 1
+    TOP_CONTRIBUTOR
+    BUG_FOUND 100
+    CONTEST_HOSTED
+    4 NON_INDIAN
+    CONTEST_WON 1
+    TOP_CONTRIBUTOR
+    BUG_FOUND 100
+    CONTEST_HOSTED
 
+Sample Output
+
+    3
     1
-
-Sample Input 2:
-
-    4 4
-    1 2 6 9
-
-Sample Output 2:
-
-    -1
-
-EXPLANATION:
-
-    In the first example, as 2 is present in the list.
-    In the second example, 4 is not present in the list.
 ```
 <br />
 
 ```
-9. You're given the length of three sides a, b, and c respectively. Now check 
-if these three sides can form a triangle or not. Print "YES"(without quotes) if 
-it can form a valid triangle with an area greater than 0, otherwise print "NO" 
-(without quotes).
+9.  Consider a very long K-digit number N with digits d0, d1, ..., dK-1 (in decimal 
+notation; d0 is the most significant and dK-1 the least significant digit). This number is 
+so large that we can't give it to you on the input explicitly; instead, you are only given 
+its starting digits and a way to construct the remainder of the number.
 
-Input:
+Specifically, you are given d0 and d1; for each i ≥ 2, di is the sum of all preceding (more 
+significant) digits, modulo 10 — more formally, the following formula must hold: Determine if N is a multiple of 3.
 
-    First-line will contain three numbers a, b, and c separated by space.
+Input
 
-Output:
+    The first line of the input contains a single integer T denoting the number of test 
+    cases. The description of T test cases follows.
+    The first and only line of each test case contains three space-separated integers K, 
+    d0 and d1.
 
-    Print "YES"(without quotes) if these sides can form a valid triangle, 
-    otherwise print "NO" (without quotes).
+Output
+
+    For each test case, print a single line containing the string "YES" (without quotes) 
+    if the number N is a multiple of 3 or "NO" (without quotes) otherwise.
 
 Constraints
 
-    1≤a,b,c≤10^6
+    1 ≤ T ≤ 1000
+    2 ≤ K ≤ 10^12
+    1 ≤ d0 ≤ 9
+    0 ≤ d1 ≤ 9
 
-Sample Input 1:
+Sample Input
 
-    2 4 3
+    3
+    5 3 4
+    13 8 1
+    760399384224 5 1
 
-Sample Output 1:
-
+Sample Output
+    NO
+    YES
     YES
 
-Sample Input 2:
+Explanation
 
-    1 1 4
+    Example case 1: The whole number N is 34748, which is not divisible by 3, 
+    so the answer is NO.
 
-Sample Output 2:
-
-    NO
-
-EXPLANATION:
-
-    In the first example, (2, 4, 3) can form a triangle with an area greater than 0.
-    In the second example, (1, 1, 4) will never form a valid triangle.
+    Example case 2: The whole number N is 8198624862486, which is divisible by 3, 
+    so the answer is YES.
 ```
