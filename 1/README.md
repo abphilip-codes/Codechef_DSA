@@ -478,6 +478,7 @@ Sample Input
     760399384224 5 1
 
 Sample Output
+
     NO
     YES
     YES
