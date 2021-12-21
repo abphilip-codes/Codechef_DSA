@@ -1,4 +1,6 @@
-# Codechef: Algorithms Warm up and Complexity Analysis
+# Codechef: DSA
+
+### Algorithms - Warm up and Complexity Analysis
 
 ```
 1. Chef went to a shop and buys a pens and b pencils. Each pen costs x units and each 
